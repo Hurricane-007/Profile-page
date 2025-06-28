@@ -87,9 +87,9 @@ export default function Navbar({ onMobileMenuToggle }) {
                   </div>
                 )}
               </div>
-              <a href="/contact" className="text-slate-300 hover:text-white transition-colors duration-200 font-medium">
+              <Link to="/contact" className="text-slate-300 hover:text-white transition-colors duration-200 font-medium">
                 Contact
-              </a>
+              </Link>
             </div>
             {/* Mobile Menu Button */}
             <div className="ml-auto md:hidden z-30">
@@ -110,9 +110,9 @@ export default function Navbar({ onMobileMenuToggle }) {
                 <a href="#" className="block px-3 py-2 text-slate-300 hover:text-white hover:bg-slate-800/50 rounded-md transition-colors duration-200">
                   Home
                 </a>
-                <a href="/About" className="block px-3 py-2 text-slate-300 hover:text-white hover:bg-slate-800/50 rounded-md transition-colors duration-200">
+                <Link href="/About" className="block px-3 py-2 text-slate-300 hover:text-white hover:bg-slate-800/50 rounded-md transition-colors duration-200">
                   Projects
-                </a>
+                </Link>
                 {/* Mobile Services Section */}
                 <div className="px-3 py-2">
                   <div className="text-slate-300 font-medium mb-2">Services</div>
@@ -143,9 +143,9 @@ export default function Navbar({ onMobileMenuToggle }) {
                     </a>
                   </div>
                 </div>
-                <a href="/contact" className="block px-3 py-2 text-slate-300 hover:text-white hover:bg-slate-800/50 rounded-md transition-colors duration-200">
+                <Link to="/contact" className="block px-3 py-2 text-slate-300 hover:text-white hover:bg-slate-800/50 rounded-md transition-colors duration-200">
                   Contact
-                </a>
+                </Link>
               </div>
             </div>
           )}
