@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-white;
+  }
+
+  .gradient-left {
+    @apply absolute bottom-0 left-[-20%] right-0 top-[20%] h-[500px] w-[500px] rounded-full z-[-1];
+    background: radial-gradient(circle farthest-side, rgba(27, 15, 205, 0.15), rgba(17, 39, 232, 0));
+  }
+
+  .gradient-right {
+    @apply absolute bottom-0 right-[-20%] top-[20%] h-[500px] w-[500px] rounded-full z-[-1];
+    background: radial-gradient(circle farthest-side, rgba(27, 15, 205, 0.15), #1127e800);
+  }
+}
