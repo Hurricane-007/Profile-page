@@ -20,7 +20,7 @@ export default function Navbar({ onMobileMenuToggle }) {
     }, [isMobileMenuOpen, onMobileMenuToggle]);
 
     return (
-      <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800/50">
+      <nav className="fixed top-0 w-auto mx-auto left-0 right-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative flex items-center h-16 w-full py-10 ">
             {/* Centered Title */}
