@@ -110,7 +110,7 @@ export default function Navbar({ onMobileMenuToggle }) {
                 <a href="#" className="block px-3 py-2 text-slate-300 hover:text-white hover:bg-slate-800/50 rounded-md transition-colors duration-200">
                   Home
                 </a>
-                <Link href="/About" className="block px-3 py-2 text-slate-300 hover:text-white hover:bg-slate-800/50 rounded-md transition-colors duration-200">
+                <Link to="/About" className="block px-3 py-2 text-slate-300 hover:text-white hover:bg-slate-800/50 rounded-md transition-colors duration-200">
                   Projects
                 </Link>
                 {/* Mobile Services Section */}

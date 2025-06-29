@@ -13,7 +13,9 @@ const Homepage = () => {
     </div>
   
     {/* Content */}
+    <div className='mb-20'>
     <Navbar onMobileMenuToggle={setIsMobileMenuOpen} />
+    </div>
     <div className={`transition-all duration-300 ${isMobileMenuOpen ? 'pt-80' : 'pt-6'} md:pt-20`}>
         <div className="flex flex-col md:flex-row justify-center items-center min-h-screen gap-4">
       <img src="profile.jpg" className="w-64 h-64 object-cover rounded-full shadow-2xl mx-10" />
